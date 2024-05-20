@@ -1,0 +1,22 @@
+{
+  "html": "yewdar.html",
+  "css": "yewdar.css",
+  "authors": "Duane Sibilly",
+  "roll20userid": "586309",
+  "preview": "yewdar.png",
+  "instructions": "This is a test sheet for now.",
+  "useroptions": [
+    {
+      "attribute": "hide_name",
+      "displayname": "Hide name in rolls?",
+      "type": "select",
+      "options": [
+        "No|{{subtitle=@{character_name} }}",
+        "Yes| "
+      ],
+      "default": "{{subtitle=@{character_name} }}",
+      "description": "Hides names of newly created characters in rolls by default. GMs can find it useful to hide the names of NPCs in some situations. This option can be later changed on individual sheets from the Settings Page."
+    }
+  ],
+  "legacy": false
+}
